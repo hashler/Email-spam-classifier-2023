@@ -3,12 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='images/image-removebg-preview.png') }}">
     <title>Get email scam prediction</title>
 </head>
 <body>
-   <div>
-       <h3>the mail which you need to check whether it is a spam mail is <b>{{ mailName }}</b></h3>
-       <p>then answer is <span>{{ mailPrediction }}</span></p>
-   </div>
+    <div class="head">
+    <div class="left-side">
+        <div class="head">
+            <h1 class="heading">Email Spam classifier</h1>
+        </div>
+       <div class="head form">
+        <div>
+           <h3 class="answer"><b>{{ mailName }}</b> is {{ mailPrediction }}</h3>
+           </div>
+       </div>
+    </div>
+    <div class="img2">
+        <img src="{{ url_for('static', filename='images/images 4.jpg') }}" alt="" srcset="">
+    </div>
+    </div>
 </body>
 </html>

@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bree+Serif&family=Urbanist:wght@100;200&display=swap');
+
+.left-side{
+    width: 40vw;
+    height: 100vh;
+}
+
+.head{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.heading{
+   font-family: 'Bebas Neue', sans-serif;
+}
+
+.form{
+   gap: 0px;
+}
+
+.input{
+   height: 50px;
+   width: 400px;
+   outline: 0px;
+   font-family: 'Urbanist', sans-serif;
+   border-top-left-radius: 20px;
+   border-bottom-left-radius: 20px;
+   border-right: 0px;
+}
+
+.btn-submit{
+   font-family: 'Bree Serif', serif;
+   height: 56.5px;
+   outline: 0px;
+   border-top-right-radius: 20px;
+   border-bottom-right-radius: 20px;
+   border-left: 0px;
+   background-color: transparent;
+   cursor: pointer;
+}
+
+.answer{
+    font-family: 'Urbanist', sans-serif;
+}
+
+.img{
+    width: 60vw;
+    height: 100vh;
+    background: url('/static/images/hack.jpg');
+    background-size: cover;
+}
+
+.img2{
+    width: 60vw;
+    height: 100vh;
+    background: url('/static/images/hack1.jpg');
+    background-size: cover;
+}
