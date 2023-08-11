@@ -38,6 +38,6 @@ def getEmailScamPrediction(mail):
     prediction = model.predict(input_data_features)
 
     if (prediction[0] == 1):
-        return 'This is not a scam!'
+        return 'not a spam!'
     else:
-        return 'This is a scam!'
+        return 'a spam!'
