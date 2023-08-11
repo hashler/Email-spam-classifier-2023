@@ -15,8 +15,12 @@
    font-family: 'Bebas Neue', sans-serif;
 }
 
-.form{
+/* .form{
    gap: 0px;
+} */
+
+.bottom{
+   margin-bottom: 20px;
 }
 
 .input{
@@ -24,24 +28,23 @@
    width: 400px;
    outline: 0px;
    font-family: 'Urbanist', sans-serif;
-   border-top-left-radius: 20px;
-   border-bottom-left-radius: 20px;
-   border-right: 0px;
+   /* border-right: 0px; */
 }
 
 .btn-submit{
    font-family: 'Bree Serif', serif;
    height: 56.5px;
+   width: 100px;
    outline: 0px;
-   border-top-right-radius: 20px;
-   border-bottom-right-radius: 20px;
-   border-left: 0px;
-   background-color: transparent;
+   border: 0px;
+   background-color: rgba(24, 149, 221, 0.74);
+   color: #ffffff;
    cursor: pointer;
 }
 
 .answer{
-    font-family: 'Urbanist', sans-serif;
+   font-family: 'Bree Serif', serif;
+   font-weight: 300;
 }
 
 .img{
